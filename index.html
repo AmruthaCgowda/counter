@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Counter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center flex items-center justify-center h-screen">
+      <div class="counter p-6 border border-solid border-gray-300 rounded-sm shadow-md">
+        <div class="counter-value !p-0">
+          <span class="value">0</span>
+        </div>
+        <div class="counter-controls">
+          <button class="bg-blue-900 px-3 py-1 leading-none text-white rounded-sm cursor-pointer" id="decrement">-</button>
+          <button class="bg-blue-900 px-3 py-1 leading-none text-white rounded-sm cursor-pointer" id="increment">+</button>
+        </div>
+
+        <div class="change">
+          <label class="text-sm pr-2" for="changeBy">Increment/Decrement by:</label>
+          <input class="border border-solid border-gray-500 rounded-sm outline-none pl-2" type="number" id="changeBy" value="1" min="1" max="10" />
+        </div>
+
+        <div class="counter-controls">
+          <button class="text-sm bg-blue-900 px-3 py-2 leading-none text-white rounded-sm cursor-pointer" id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

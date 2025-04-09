@@ -2,7 +2,7 @@
 
 A simple counter application.
 
-🔗 **Live Demo:** [Counter App](https://amruthacgowda.github.io/counter/)
+🔗 **Live Demo:** [Counter App](https://amruthacgowda.github.io/counter/){:target="_blank"}
 
 ## Features
 - Increase, decrease, and reset the counter.
